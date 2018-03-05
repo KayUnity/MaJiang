@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\compression">
+      <UniqueIdentifier>{4c46ccd8-f635-4f5f-95c2-a9a30fedf83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\encription">
+      <UniqueIdentifier>{c5c9a559-6ee1-414d-b6b8-26f7b1d31333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\encription">
+      <UniqueIdentifier>{adbdbcbe-42bb-43a6-ae84-390bae0d92a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\compression">
+      <UniqueIdentifier>{29dc21fb-c7ea-495a-bc80-7c12052c529b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\streams">
+      <UniqueIdentifier>{634dfbe8-06a2-4606-a90c-1b89c741926b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\streams">
+      <UniqueIdentifier>{6ddfe385-1a0e-4424-9258-e8383886e7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\singleFileSystem">
+      <UniqueIdentifier>{7881a9bf-88a5-4803-afe1-1177b8a633ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\singleFileSystem">
+      <UniqueIdentifier>{b35a0fd9-e671-41a8-bf6c-9a1b997ec6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fileUtils">
+      <UniqueIdentifier>{22764fe2-5ed4-46ec-a741-0bf19b3397d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fileUtils">
+      <UniqueIdentifier>{4fff7ac7-6a7c-40ed-894d-5f7c1a13a521}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\encription\AES.cpp">
+      <Filter>Source Files\encription</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compression\DS_QuickLZCore.cpp">
+      <Filter>Source Files\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DS_BytePool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DS_ByteQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DS_Table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ForceCompileAll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FormatString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GetTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HexCommonThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HexString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HexTimeCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Itoa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LinuxStrings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SuperFastHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UTF8Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fileUtils\_fileExists.cpp">
+      <Filter>Source Files\fileUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fileUtils\_FindFirst.cpp">
+      <Filter>Source Files\fileUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fileUtils\_splitpath.cpp">
+      <Filter>Source Files\fileUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fileUtils\BaseFileSystem.cpp">
+      <Filter>Source Files\fileUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\singleFileSystem\DirManager.cpp">
+      <Filter>Source Files\singleFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\singleFileSystem\DS_HugeFile.cpp">
+      <Filter>Source Files\singleFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\singleFileSystem\FreeSpaceManager.cpp">
+      <Filter>Source Files\singleFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\singleFileSystem\PageFileManager.cpp">
+      <Filter>Source Files\singleFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\singleFileSystem\SFSArray.cpp">
+      <Filter>Source Files\singleFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\singleFileSystem\SFSFileStreams.cpp">
+      <Filter>Source Files\singleFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\singleFileSystem\SFSUtils.cpp">
+      <Filter>Source Files\singleFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\singleFileSystem\SingleFileSystem.cpp">
+      <Filter>Source Files\singleFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\singleFileSystem\UserFilePageMapManager.cpp">
+      <Filter>Source Files\singleFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\streams\DS_FileStream.cpp">
+      <Filter>Source Files\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="src\streams\DS_MemoryStream.cpp">
+      <Filter>Source Files\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="src\streams\DS_Stream.cpp">
+      <Filter>Source Files\streams</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\compression\DS_QuickLZCore.h">
+      <Filter>Header Files\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="include\encription\AES.h">
+      <Filter>Header Files\encription</Filter>
+    </ClInclude>
+    <ClInclude Include="include\encription\AES-Boxes.h">
+      <Filter>Header Files\encription</Filter>
+    </ClInclude>
+    <ClInclude Include="include\auto_tchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonTypeDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_BinarySearchTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_BPlusTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_BytePool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_ByteQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_HashKeyer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_HashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_Heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_MemoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_OrderedChannelHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_OrderedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_QueueLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_RangeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_ThreadSafeBinarySearchTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_ThreadSafeHashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_ThreadSafeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_ThreadSafeOrderedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_ThreadSafeQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DS_WeightedGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FormatString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GetTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HexCommonThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HexFastTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HexString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HexTimeCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Itoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LinuxStrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prichar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QuickSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimpleMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SuperFastHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UTF8Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fileUtils\_fileExists.h">
+      <Filter>Header Files\fileUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fileUtils\_FindFirst.h">
+      <Filter>Header Files\fileUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fileUtils\_splitpath.h">
+      <Filter>Header Files\fileUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fileUtils\BaseFileSystem.h">
+      <Filter>Header Files\fileUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\DirManager.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\DS_HugeFile.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\FreeSpaceManager.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\PageFileManager.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\SFSArray.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\SFSFileStreams.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\SFSUtils.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\SingleFileSystem.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\SingleFileSystemDefines.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\SingleFileSystemStructures.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleFileSystem\UserFilePageMapManager.h">
+      <Filter>Header Files\singleFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\streams\DS_FileStream.h">
+      <Filter>Header Files\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="include\streams\DS_MemoryStream.h">
+      <Filter>Header Files\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="include\streams\DS_Stream.h">
+      <Filter>Header Files\streams</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
